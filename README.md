@@ -11,7 +11,6 @@ building dynamic and interactive web applications using Vite.
 - **PostCSS**: A tool for transforming CSS with JavaScript plugins.
 - **ESLint**: Code linting to maintain consistent code quality.
 - **Prettier**: Code formatting to ensure a consistent code style.
-- **Axios**: For making HTTP requests.
 
 ## Getting Started
 
@@ -114,8 +113,6 @@ react-app-template/
 ├── README.md
 ├── src/
 │   ├── App.jsx
-│   ├── assets/
-│   │   └── react.svg
 │   ├── index.css
 │   └── main.jsx
 ├── tailwind.config.js
@@ -131,8 +128,6 @@ react-app-template/
 - **README.md**: Project documentation.
 - **src/**: Contains the main source code for the React application.
     - **App.jsx**: The main App component.
-    - **assets/**: Static assets like images, fonts, etc.
-        - **react.svg**: React logo used in the project.
     - **index.css**: Global CSS styles.
     - **main.jsx**: The entry point of the application.
 - **tailwind.config.js**: Tailwind CSS configuration file.
@@ -142,10 +137,6 @@ react-app-template/
 
 Contributions are welcome! Please open an issue or submit a pull request if you have any improvements or new features to
 suggest.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ---
 
