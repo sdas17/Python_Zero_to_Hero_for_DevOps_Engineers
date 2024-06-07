@@ -106,7 +106,6 @@ The project structure is as follows:
 react-app-template/
 ├── index.html
 ├── package.json
-├── package-lock.json
 ├── postcss.config.js
 ├── public/
 │   └── vite.svg
@@ -121,7 +120,6 @@ react-app-template/
 
 - **index.html**: HTML template.
 - **package.json**: Project metadata and dependencies.
-- **package-lock.json**: Lockfile for npm to ensure consistent installations.
 - **postcss.config.js**: PostCSS configuration file.
 - **public/**: Contains static assets.
     - **vite.svg**: Vite logo used in the project.
