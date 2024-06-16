@@ -1,9 +1,46 @@
-# React Vite App Template
+<div align="center">
+  <img height="70px" src="https://skillicons.dev/icons?i=react,vite,tailwind" alt="Technology Icons">
+  <h1>React Vite App Template</h1>
+</div>
 
-Welcome to the **React-Vite-App-Template**! This project is a React application template that serves as a starting point for
-building dynamic and interactive web applications using Vite.
+<br/>
 
-## Features
+Welcome to the **React Vite App Template**! This template is a starting point for building dynamic and interactive web applications using Vite and React.
+
+## Table of Contents
+
+- [Overview](#overview)
+    - [Why This Template?](#why-this-template)
+    - [Technologies Used](#technologies-used)
+    - [Features](#features)
+- [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+    - [Running the Development Server](#running-the-development-server)
+    - [Building for Production](#building-for-production)
+    - [Linting and Formatting](#linting-and-formatting)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+
+## Overview
+
+### Why This Template?
+
+Your time is valuable, and this template is designed to streamline the process of creating a React application with Vite, allowing you to focus on building amazing projects that solve problems and help others.
+
+This template will continue to evolve to better meet diverse needs. Feel free to suggest changes by forking this repo, creating a pull request, or opening an issue. Contributions are always welcome!
+
+### Technologies Used
+
+<p>
+   <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" height="30px">
+   <img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" height="30px">
+   <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="TailwindCSS" height="30px">
+   <img src="https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white" alt="ESLint" height="30px">
+   <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=for-the-badge&logo=prettier&logoColor=white" alt="Prettier" height="30px">
+</p>
+
+### Features
 
 - **React**: A powerful JavaScript library for building user interfaces.
 - **Vite**: A next-generation frontend tooling. It's fast and efficient, perfect for modern web development.
@@ -24,7 +61,7 @@ building dynamic and interactive web applications using Vite.
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/react-vite-app-template.git
+   git clone https://github.com/RanitManik/React-Vite-App-Template.git
    cd react-vite-app-template
    ```
 
@@ -43,7 +80,6 @@ building dynamic and interactive web applications using Vite.
 ### Running the Development Server
 
 To start the development server, run:
-
 
 ```bash
 vite
@@ -140,9 +176,10 @@ react-vite-app-template/
 
 ## Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request if you have any improvements or new features to
-suggest.
+Contributions are welcome! Please open an issue or submit a pull request if you have any improvements or new features to suggest.
 
 ---
 
-Thank you for using **React-Vite-App-Template**! Happy coding! 🚀
+<p align="center">
+   Thank you for using the <strong>React Vite App Template</strong>! Happy coding! 🚀
+</p>
