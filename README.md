@@ -1,6 +1,6 @@
-# React App Template
+# React Vite App Template
 
-Welcome to the **React-App-Template**! This project is a React application template that serves as a starting point for
+Welcome to the **React-Vite-App-Template**! This project is a React application template that serves as a starting point for
 building dynamic and interactive web applications using Vite.
 
 ## Features
@@ -24,8 +24,8 @@ building dynamic and interactive web applications using Vite.
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/react-app-template.git
-   cd react-app-template
+   git clone https://github.com/yourusername/react-vite-app-template.git
+   cd react-vite-app-template
    ```
 
 2. **Install dependencies:**
@@ -44,6 +44,13 @@ building dynamic and interactive web applications using Vite.
 
 To start the development server, run:
 
+
+```bash
+vite
+```
+
+or
+
 ```bash
 npm run dev
 ```
@@ -54,7 +61,7 @@ or
 yarn dev
 ```
 
-Open your browser and navigate to `http://localhost:3000` to see the application in action.
+Open your browser and navigate to `http://localhost:5173` to see the application in action.
 
 ### Building for Production
 
@@ -103,7 +110,7 @@ yarn format
 The project structure is as follows:
 
 ```
-react-app-template/
+react-vite-app-template/
 ├── index.html
 ├── package.json
 ├── postcss.config.js
@@ -138,4 +145,4 @@ suggest.
 
 ---
 
-Thank you for using **React-App-Template**! Happy coding! 🚀
+Thank you for using **React-Vite-App-Template**! Happy coding! 🚀
