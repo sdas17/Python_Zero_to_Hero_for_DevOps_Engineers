@@ -85,12 +85,6 @@ This template will continue to evolve to better meet diverse needs. Feel free to
 To start the development server, run:
 
 ```bash
-vite
-```
-
-or
-
-```bash
 npm run dev
 ```
 
