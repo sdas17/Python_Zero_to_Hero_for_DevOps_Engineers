@@ -201,7 +201,7 @@ We welcome contributions to enhance the Gemini Clone project. To contribute:
 
 - **LinkedIn**: [Ranit Manik](https://www.linkedin.com/in/ranit-manik/)
 - **GitHub**: [RanitManik](https://github.com/RanitManik)
-- **Email**: [ranitmanik.dev@gmail.com](ranitmanik.dev@gmail.com)
+- **Email**: [ranitmanik.dev@gmail.com](mailto:ranitmanik.dev@gmail.com)
 
 _Feel free to reach out if you have questions or just want to chat about web adventures!_
 
