@@ -21,6 +21,8 @@ Welcome to the **React Vite App Template**! This template is a starting point fo
     - [Linting and Formatting](#linting-and-formatting)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
+- [Contact](#contact)
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -177,7 +179,37 @@ react-vite-app-template/
 
 ## Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request if you have any improvements or new features to suggest.
+We welcome contributions to enhance the Gemini Clone project. To contribute:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix:
+
+   ```bash
+   git checkout -b feature-name
+   ```
+
+3. Make your changes and commit them with clear and descriptive messages.
+4. Push your changes to your fork:
+
+   ```bash
+   git push origin feature-name
+   ```
+
+5. Create a pull request to the main repository, detailing the changes and enhancements you have made.
+
+## Contact
+
+- **LinkedIn**: [Ranit Manik](https://www.linkedin.com/in/ranit-manik/)
+- **GitHub**: [RanitManik](https://github.com/RanitManik)
+- **Email**: [ranitmanik.dev@gmail.com](ranitmanik.dev@gmail.com)
+
+_Feel free to reach out if you have questions or just want to chat about web adventures!_
+
+## Acknowledgments
+
+- [Markdown Badges](https://github.com/Ileriayo/markdown-badges)
+- [shields.io Badges](https://shields.io/)
+- [Skill Icons](https://github.com/tandpfun/skill-icons)
 
 ---
 
