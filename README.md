@@ -1,9 +1,9 @@
 <div align="center">
   <img height="70px" src="https://skillicons.dev/icons?i=react,vite,tailwind" alt="Technology Icons">
-  <h1>React Vite App Template</h1>
+  <h1>React Vite Tailwind App Template</h1>
 </div>
 
-Welcome to the **React Vite App Template**! This template is a starting point for building dynamic and interactive web applications using Vite and React.
+Welcome to the **React Vite Tailwind App Template**! This template is a starting point for building dynamic and interactive web applications using Vite and React.
 
 ## Table of Contents
 
@@ -36,7 +36,8 @@ This template will continue to evolve to better meet diverse needs. Feel free to
    <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" height="30px">
    <img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" height="30px">
    <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="TailwindCSS" height="30px">
-   <img src="https://img.shields.io/badge/PostCSS-%23DD3A0A.svg?style=for-the-badge&logo=postcss&logoColor=white" alt="TailwindCSS" height="30px">
+   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" height="30px">
+   <img src="https://img.shields.io/badge/PostCSS-%23DD3A0A.svg?style=for-the-badge&logo=postcss&logoColor=white" alt="PostCSS" height="30px">
    <img src="https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white" alt="ESLint" height="30px">
    <img src="https://img.shields.io/badge/Prettier-F7B93E.svg?style=for-the-badge&logo=Prettier&logoColor=black" alt="Prettier" height="30px">
 </p>
@@ -46,6 +47,7 @@ This template will continue to evolve to better meet diverse needs. Feel free to
 - **React**: A powerful JavaScript library for building user interfaces.
 - **Vite**: A next-generation frontend tooling. It's fast and efficient, perfect for modern web development.
 - **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **JavaScript**: The core programming language for web development.
 - **PostCSS**: A tool for transforming CSS with JavaScript plugins.
 - **ESLint**: Code linting to maintain consistent code quality.
 - **Prettier**: Code formatting to ensure a consistent code style.
@@ -62,7 +64,7 @@ This template will continue to evolve to better meet diverse needs. Feel free to
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/RanitManik/React-Vite-App-Template.git
+   git clone https://github.com/RanitManik/React-Vite-Tailwind-App-Template.git
    cd react-vite-app-template
    ```
 
@@ -206,5 +208,5 @@ _Feel free to reach out if you have questions or just want to chat about web adv
 ---
 
 <p align="center">
-   Thank you for using the <strong>React Vite App Template</strong>! Happy coding! 🚀
+   Thank you for using the <strong>React Vite Tailwind App Template</strong>! Happy coding! 🚀
 </p>
