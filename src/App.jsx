@@ -8,10 +8,10 @@ function App() {
    const [user,setuser]=useState(null)
    const loginfeature= ((email,password)=>{
     if (email ==='admin@example.com' && password ==='123') {
-      console.log("this is Admin")
+      // console.log("this is Admin")
       setuser('admin')
     }else if (email =='user@name.com' && password =='123') {
-            console.log("this is user")
+            // console.log("this is user")
                   setuser('user')
 
 
