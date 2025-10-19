@@ -1,8 +1,8 @@
 import { useContext,  useState } from "react";
-import Login from "./component/Auth/login";
-import Admin from "./component/Dahboard/Admin";
-import Empd from "./component/Dahboard/Empd";
-import {AuthContet} from "./context/AuthProvider";
+import Login from "./component/Auth/Login.jsx";
+import Admin from "./component/Dahboard/Admin.jsx";
+import Empd from "./component/Dahboard/Empd.jsx";
+import {AuthContet} from "./context/AuthProvider.jsx";
 
 function App() {
   
