@@ -1,5 +1,10 @@
 
-const Headers = () => {
+const Headers = ()=> {
+  
+  const resetheader = (()=>{
+   localStorage.setItem("loggedInUser","")
+   window.location.reload()
+  })
   return (
     <header className="w-full bg-white shadow-sm rounded-lg px-4 py-3 flex items-center justify-between">
       {/* Left Side - Greeting */}
@@ -13,6 +18,7 @@ const Headers = () => {
       {/* Right Side - Logout Button */}
       <div>
         <button
+        onClick={()=>resetheader()}
           className="bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700
                      text-white px-5 py-2 rounded-md text-base font-medium shadow-md
                      transition duration-300 ease-in-out hover:shadow-lg hover:scale-105"

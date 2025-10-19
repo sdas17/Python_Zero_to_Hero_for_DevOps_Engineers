@@ -7,6 +7,7 @@ const AuthProvider = ({children}) => {
  
    useEffect(() => {
     // 👇 Optional: Only set if nothing exists
+    setLocalStorage()
     if (!localStorage.getItem("employee") || !localStorage.getItem("admin")) {
       setLocalStorage();
     }
