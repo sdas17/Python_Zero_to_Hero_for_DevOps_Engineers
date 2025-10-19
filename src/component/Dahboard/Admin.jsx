@@ -1,11 +1,10 @@
 import Headers from "./Headers"
 
-const Admin = () => {
+const Admin = (data) => {
   return (
     <div className="h-screen w-full">
-        <Headers/>
+        <Headers data={data}/>
         <div className="flex gap-8 p-6">
-            {/* Form Section */}
             <div className="border-4 border-gray-700 p-6 rounded-xl bg-gray-900/50 shadow-xl mt-10 w-1/3">
                 <form className="flex flex-col space-y-3">
                     <label className="text-white font-medium">Task Title</label>
@@ -43,9 +42,7 @@ const Admin = () => {
                 </form>
             </div>
 
-            {/* Tasks Cards Section */}
             <div className="flex-1 mt-10 grid grid-cols-2 gap-6">
-                {/* Task Card 1 */}
                 <div className="border-2 border-gray-700 rounded-lg bg-gray-900/50 p-4 shadow-md">
                     <div className="flex justify-between items-start mb-3">
                         <h3 className="text-white font-semibold">UI Design Task</h3>

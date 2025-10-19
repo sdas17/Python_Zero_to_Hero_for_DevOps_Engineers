@@ -6,7 +6,7 @@ const Empd = (data) => {
   console.log(data,'6')
   return (
     <div className="px-2 py-2">
-        <Headers employee={data}/>
+        <Headers data={data}/>
         <Taklist/>
         <TaskListdata/>
     </div>

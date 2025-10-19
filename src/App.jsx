@@ -12,38 +12,43 @@ function App() {
    const [logged_user,setlogged_user]=useState(null)
    
    const loginfeature = (email, password) => {
-    // ✅ Check admin login
-    const isAdmin = users_data?.admin_data?.find(
-      (admin) => admin.email === email && admin.password === password
+  const isAdmin = users_data?.admin_data?.find(
+    (admin) => admin.email === email && admin.password === password
+  );
+
+  if (isAdmin) {
+    setuser("admin");
+    setlogged_user(isAdmin); 
+    localStorage.setItem(
+      "loggedInUser",
+      JSON.stringify({ role: "admin", email: isAdmin.email, name: isAdmin.name })
     );
+    return;
+  }
 
-    if (isAdmin) {
-      setuser("admin");
-      localStorage.setItem("loggedInUser", JSON.stringify({ role: "admin" }));
-      return;
-    }
+  const matchedEmployee = users_data?.employee_data?.find(
+    (emp) => emp.email === email && emp.password === password
+  );
 
-    // ✅ Check employee login
-    const matchedEmployee = users_data?.employee_data?.find(
-      (emp) => emp.email === email && emp.password === password
+  if (matchedEmployee) {
+    setuser("user");
+    setlogged_user(matchedEmployee);
+
+    localStorage.setItem(
+      "loggedInUser",
+      JSON.stringify({ role: "user", email: matchedEmployee.email, name: matchedEmployee.name })
     );
+  } else {
+    alert("Invalid Credentials");
+  }
+};
 
-    if (matchedEmployee) {
-      setuser("user");
-      setlogged_user(matchedEmployee);
-      localStorage.setItem(
-        "loggedInUser",
-        JSON.stringify({ role: "user", email: matchedEmployee.email })
-      );
-    } else {
-      alert("Invalid Credentials");
-    }
-  };
+  
   return (
    <>
     
     {!user && <Login loginfeature={loginfeature} />}
-      {user === "admin" && <Admin />}
+      {user === "admin" && <Admin  employeedata={logged_user}/>}
       {user === "user" && <Empd employeedata={logged_user} />}
  
    </>

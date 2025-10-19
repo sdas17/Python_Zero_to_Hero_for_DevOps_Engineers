@@ -1,5 +1,5 @@
 
-const Headers = ()=> {
+const Headers = ({data})=> {
   
   const resetheader = (()=>{
    localStorage.setItem("loggedInUser","")
@@ -7,10 +7,9 @@ const Headers = ()=> {
   })
   return (
     <header className="w-full bg-white shadow-sm rounded-lg px-4 py-3 flex items-center justify-between">
-      {/* Left Side - Greeting */}
       <div>
         <h1 className="text-2xl font-semibold text-gray-800">
-          Hello, <span className="text-blue-600">Sarthak 🖐️</span>
+          Hello, <span className="text-blue-600">{data?.employeedata?.firstName} 🖐️</span>
         </h1>
         <p className="text-sm text-gray-500">Welcome back to your dashboard</p>
       </div>
