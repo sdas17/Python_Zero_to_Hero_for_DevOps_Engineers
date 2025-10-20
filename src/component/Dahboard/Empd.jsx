@@ -7,8 +7,8 @@ const Empd = (data) => {
   return (
     <div className="px-2 py-2">
         <Headers data={data}/>
-        <Taklist/>
-        <TaskListdata/>
+        <Taklist data={data}/>
+        <TaskListdata data={data.employeedata}/>
     </div>
   )
 }

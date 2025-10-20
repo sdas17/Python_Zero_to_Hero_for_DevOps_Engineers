@@ -20,7 +20,7 @@
           "taskTitle": "Fix login bug",
           "taskDescription": "Resolve the login issue on mobile.",
           "taskDate": "2025-10-10",
-          "taskCategory": "Development"
+          "taskCategory": "High"
         },
         {
           "active": false,
@@ -30,7 +30,7 @@
           "taskTitle": "Update dashboard UI",
           "taskDescription": "Redesign the dashboard layout.",
           "taskDate": "2025-09-25",
-          "taskCategory": "Design"
+          "taskCategory": "High"
         },
         {
           "active": false,
@@ -38,9 +38,9 @@
           "complete": false,
           "failed": true,
           "taskTitle": "Deploy staging build",
-          "taskDescription": "Deployment failed due to server error.",
+          "taskDescription": "Deployment failed .",
           "taskDate": "2025-10-01",
-          "taskCategory": "Deployment"
+          "taskCategory": "High"
         }
       ]
     },
@@ -65,7 +65,7 @@
           "taskTitle": "Write test cases",
           "taskDescription": "Cover all API endpoints with unit tests.",
           "taskDate": "2025-10-16",
-          "taskCategory": "Testing"
+          "taskCategory": "High"
         },
         {
           "active": true,
